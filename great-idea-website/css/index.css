@@ -83,12 +83,11 @@ header nav a {
 
 .innovate-text {
 	display: inline-block;
-	font-size:75px;
+	font-size:70px;
 	text-align: center;
 	margin-top: 100px;
 	margin-left: 90px;
 	margin-right: 50px;
-	margin-bottom: 1px;
 	vertical-align:top;
 }
 
@@ -99,7 +98,7 @@ header nav a {
 	padding: 8px 45px;
 	font-size: 14px;
 	cursor: pointer;
-  }
+}
 
 
 .roundCode {
@@ -116,17 +115,32 @@ header nav a {
  .container .boxTextTop section{
 	width: 49%;
 	display: inline-block;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 .container .boxTextBottom section{
 width: 33%;
 display: inline-block;	
-margin-top: 40px;
-margin-bottom: 40px;
+margin-top: 35px;
+margin-bottom: 35px;
 }
 
 .contact-section {
+	border-top: 1px solid black;
+	padding-top: 35px;
+}
+
+.contact-section address {
+	padding-bottom: 20px;
+}
+
+.contact-section .phoneNumber{
+	padding-bottom: 20px;
+}
+
+footer .copyright {
+	padding: 35px 0;
+	text-align: center;
 
 }
