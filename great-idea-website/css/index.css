@@ -64,4 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/* Starting my code from here */
+.container {
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+header img.logo {
+	margin-left: 100px;
+}
+header nav a {
+	margin: 0 22px;
+	font: gray;
+}
+
+.innovate-text {
+	display: inline-block;
+	font-size:70px;
+	text-align: center;
+	border: 1px solid red;
+	margin-left: 60px;
+	margin-bottom: 140px;
+
+}
+
+.roundCode {
+	margin-top: 60px;
+	margin-left:60px;
+}
