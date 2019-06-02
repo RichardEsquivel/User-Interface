@@ -71,14 +71,25 @@ h1, h2, h3, h4, h5 {
 
 header nav {
 	display: inline-block;
+	font-size: 18px;
 	margin-top: 35px;
+	background: rgba(5, 59, 235, 0.5);
+	height: 20px;
+	border-bottom: 1px solid light;
+	position: fixed;
+	top: 0;
+	left: 18;
+	z-index: 99;
+	width: 650px;
 }
+
 header img.logo {
-	margin-left: 100px;
+	padding-left: 720px;
 }
+
 header nav a {
 	margin: 0 22px;
-	color: lightgrey;
+	color: white;
 }
 
 .innovate-text {
