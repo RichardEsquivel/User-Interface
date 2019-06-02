@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
-	border: 1px solid red;
 }
+
 header nav {
 	display: inline-block;
 	margin-top: 35px;
@@ -83,27 +83,39 @@ header nav a {
 
 .innovate-text {
 	display: inline-block;
-	font-size:70px;
+	font-size:75px;
 	text-align: center;
-	border: 1px solid red;
 	margin-top: 100px;
-	margin-left: 60px;
+	margin-left: 90px;
 	margin-right: 50px;
 	margin-bottom: 1px;
 	vertical-align:top;
-
 }
+
+.innovate-text button{
+	border: 1.10px solid black;
+	background-color: white;
+	color: black;
+	padding: 8px 45px;
+	font-size: 14px;
+	cursor: pointer;
+  }
+
 
 .roundCode {
 	display:inline-block;
 	margin-top: 60px;
-	margin-left: 5px;
+	margin-left: 50px;
 }
 
-section h1 {
-	display:inline-block;
+ .container .boxTextTop section{
+	width: 49%;
+	display: inline-block;
+	margin-bottom: 30px;
 }
 
-section h1 p{
-	display:inline-block;
+.container .boxTextBottom section{
+width: 33%;
+display: inline-block;	
+margin-top: 30px;
 }
