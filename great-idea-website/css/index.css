@@ -106,16 +106,27 @@ header nav a {
 	display:inline-block;
 	margin-top: 60px;
 	margin-left: 50px;
+	margin-bottom: 80px;
+}
+
+.container .boxTextTop{
+	border-top: 1px solid black;
 }
 
  .container .boxTextTop section{
 	width: 49%;
 	display: inline-block;
-	margin-bottom: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .container .boxTextBottom section{
 width: 33%;
 display: inline-block;	
-margin-top: 30px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.contact-section {
+
 }
