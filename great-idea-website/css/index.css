@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	margin-top: 35px;
+	background: rgba(5, 59, 235, 0.7);
+	height: 20px;
+	border-bottom: 1px solid light;
+	position: fixed;
+	top: 0;
+	left: 18;
+	z-index: 99;
+	width: 650px;
+}
+
+header img.logo {
+	padding-left: 720px;
+}
+
+header nav a {
+	margin: 0 22px;
+	color: white;
+}
+
+.innovate-text {
+	display: inline-block;
+	font-size:75px;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 90px;
+	margin-right: 50px;
+	vertical-align:top;
+}
+
+.innovate-text button{
+	border: 1.10px solid black;
+	background-color: white;
+	color: black;
+	padding: 8px 45px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+
+.roundCode {
+	display:inline-block;
+	margin-top: 60px;
+	margin-left: 50px;
+	margin-bottom: 80px;
+}
+
+.container .boxTextTop{
+	border-top: 1px solid black;
+}
+
+ .container .boxTextTop section{
+	width: 49%;
+	display: inline-block;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.container .boxTextBottom section{
+width: 33%;
+display: inline-block;	
+margin-top: 35px;
+margin-bottom: 35px;
+}
+
+.contact-section {
+	border-top: 1px solid black;
+	padding-top: 35px;
+}
+
+.contact-section address {
+	padding-bottom: 20px;
+}
+
+.contact-section .phoneNumber{
+	padding-bottom: 20px;
+}
+
+footer .copyright {
+	font-family: 'Oswald', sans-serif;
+	padding: 35px 0;
+	text-align: center;
+
+}
